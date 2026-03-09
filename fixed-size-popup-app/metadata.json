@@ -1,0 +1,5 @@
+{
+  "name": "Fixed Size Popup App",
+  "description": "A simple app featuring a fixed 480x480px popup with dummy content.",
+  "requestFramePermissions": []
+}

@@ -29,11 +29,11 @@ export default function App() {
         {/* Header */}
         <div className="bg-zinc-900 px-6 py-4 flex justify-between items-center">
           <h1 className="text-white font-semibold tracking-tight">Featured Content</h1>
-          <div className="flex gap-1.5">
+          {/* <div className="flex gap-1.5">
             <div className="w-2.5 h-2.5 rounded-full bg-red-500/80" />
             <div className="w-2.5 h-2.5 rounded-full bg-amber-500/80" />
             <div className="w-2.5 h-2.5 rounded-full bg-emerald-500/80" />
-          </div>
+          </div> */}
         </div>
 
         {/* Content Area */}
@@ -61,16 +61,15 @@ export default function App() {
         </div>
 
         {/* Footer */}
-        <div className="px-6 py-4 border-t border-zinc-100 bg-zinc-50 flex justify-end gap-3">
+        {/* <div className="px-6 py-4 border-t border-zinc-100 bg-zinc-50 flex justify-end gap-3">
           <button className="px-4 py-2 text-sm font-medium text-zinc-600 hover:text-zinc-900 transition-colors">
             Dismiss
           </button>
           <button className="px-4 py-2 text-sm font-medium bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition-colors shadow-sm">
             Learn More
           </button>
-        </div>
+        </div> */}
       </motion.div>
     </div>
   );
 }
-

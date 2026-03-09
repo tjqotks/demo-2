@@ -4,15 +4,15 @@ export default function App() {
   const dummyData = [
     {
       id: 1,
-      title: "Explore the Unknown",
-      body: "Discover hidden gems and breathtaking landscapes in our latest travel guide. Adventure awaits those who dare to step outside their comfort zone.",
-      image: "https://picsum.photos/seed/adventure/400/200"
+      title: "On-site Assessment & Diagnostics",
+      body: "On-site diagnosis leveraging LG's deep manufacturing knowledge to evaluate existing operations, equipment, and processes to identify bottlenecks, risks, and opportunities for process innovation. Provides foundational data for subsequent feasibility studies. Can support Due Diligence.",
+      image: "https://www.lg.com/content/dam/channelbtb/lgcom/global/pri/smart-factory/engineering-consulting/common/2025/main/pri-smart-factory-2025-feature-engineering-consulting-02-solutions-01-consulting-01-health-checks.jpg"
     },
     {
       id: 2,
-      title: "Modern Minimalist Living",
-      body: "Learn how to declutter your space and focus on what truly matters. Simplicity is the ultimate sophistication in the modern world.",
-      image: "https://picsum.photos/seed/minimal/400/200"
+      title: "Strategic Roadmap",
+      body: Develops strategic roadmaps, detailing implementation plans, integrated schedules/budgets, and aligning with overall business objectives. Incorporates high-level feasibility assessment and strategic risk evaluation to ensure robust planning. Ensures project viability, clarifies requirements, and improves Delivery Assurance through clear roadmap proposals. Provides Total Management perspective.",
+      image: "https://www.lg.com/content/dam/channelbtb/lgcom/global/pri/smart-factory/engineering-consulting/common/2025/main/pri-smart-factory-2025-feature-engineering-consulting-02-solutions-01-consulting-02-master-plan.jpg"
     }
   ];
 

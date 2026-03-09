@@ -11,7 +11,7 @@ export default function App() {
     {
       id: 2,
       title: "Strategic Roadmap",
-      body: Develops strategic roadmaps, detailing implementation plans, integrated schedules/budgets, and aligning with overall business objectives. Incorporates high-level feasibility assessment and strategic risk evaluation to ensure robust planning. Ensures project viability, clarifies requirements, and improves Delivery Assurance through clear roadmap proposals. Provides Total Management perspective.",
+      body: "Develops strategic roadmaps, detailing implementation plans, integrated schedules budgets, and aligning with overall business objectives. Incorporates high-level feasibility assessment and strategic risk evaluation to ensure robust planning. Ensures project viability, clarifies requirements, and improves Delivery Assurance through clear roadmap proposals. Provides Total Management perspective.",
       image: "https://www.lg.com/content/dam/channelbtb/lgcom/global/pri/smart-factory/engineering-consulting/common/2025/main/pri-smart-factory-2025-feature-engineering-consulting-02-solutions-01-consulting-02-master-plan.jpg"
     }
   ];

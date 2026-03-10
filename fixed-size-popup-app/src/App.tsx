@@ -29,7 +29,7 @@ export default function App() {
         {/* Header */}
         <div className="bg-zinc-900 px-6 py-4 flex justify-between items-center">
           <h1 className="text-white font-semibold tracking-tight">Featured Content</h1>
-          <button
+          {/* <button
               onClick={() => setIsOpen(false)}
               className="text-zinc-400 hover:text-white transition-colors duration-200"
               aria-label="Close"
@@ -38,7 +38,7 @@ export default function App() {
                 <line x1="18" y1="6" x2="6" y2="18" />
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
-            </button>
+            </button> */}
           </div>
 
         {/* Content Area */}

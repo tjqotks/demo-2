@@ -29,14 +29,14 @@ export default function App() {
         {/* Header */}
         <div className="bg-zinc-900 px-6 py-4 flex justify-between items-center">
           <h1 className="text-white font-semibold tracking-tight">Featured Content</h1>
-        <button 
+        {/* <button 
           onClick={() => setIsVisible(false)}
           className="group relative p-2 rounded-full text-zinc-400 hover:text-white hover:bg-red-500/10 transition-all duration-200 active:scale-90"
           aria-label="Close"
         >
           <X size={18} strokeWidth={2.5} />
           <div className="absolute inset-0 rounded-full bg-red-500/20 opacity-0 group-hover:opacity-100 blur-md transition-opacity" />
-        </button>
+        </button> */}
 
           {/* <div className="flex gap-1.5">
             <div className="w-2.5 h-2.5 rounded-full bg-red-500/80" />

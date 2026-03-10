@@ -29,21 +29,17 @@ export default function App() {
         {/* Header */}
         <div className="bg-zinc-900 px-6 py-4 flex justify-between items-center">
           <h1 className="text-white font-semibold tracking-tight">Featured Content</h1>
-        <button 
-          onClick={() => setIsVisible(false)}
-          className="group relative p-2 rounded-full text-zinc-400 hover:text-white hover:bg-red-500/10 transition-all duration-200 active:scale-90"
-          aria-label="Close"
-        >
-          <X size={18} strokeWidth={2.5} />
-          <div className="absolute inset-0 rounded-full bg-red-500/20 opacity-0 group-hover:opacity-100 blur-md transition-opacity" />
-        </button>
-
-          {/* <div className="flex gap-1.5">
-            <div className="w-2.5 h-2.5 rounded-full bg-red-500/80" />
-            <div className="w-2.5 h-2.5 rounded-full bg-amber-500/80" />
-            <div className="w-2.5 h-2.5 rounded-full bg-emerald-500/80" />
-          </div> */}
-        </div>
+          <button
+              onClick={() => setIsOpen(false)}
+              className="text-zinc-400 hover:text-white transition-colors duration-200"
+              aria-label="Close"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+          </div>
 
         {/* Content Area */}
         <div className="flex-1 overflow-y-auto p-6 space-y-8 scrollbar-hide">
